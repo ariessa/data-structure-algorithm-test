@@ -51,8 +51,6 @@ function process_trade_tx(transactions) {
         delete asset_pnl_dict[supported_asset]['sell_prices'];
     }
 
-    // console.log("ass: ", asset_pnl_dict);
-
     return asset_pnl_dict;
 }
 
