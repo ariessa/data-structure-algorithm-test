@@ -28,6 +28,14 @@ $ node -v
 
 ## How to run the tests
 
-```
-npm run test
-```
+- Get a list of unit tests and their verbose results
+
+    ```
+    npm run test
+    ```
+
+- Get test coverage
+
+    ```
+    npm run test-coverage
+    ```
