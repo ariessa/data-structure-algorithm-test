@@ -34,8 +34,16 @@ $ node -v
     npm run test
     ```
 
+    <p align="center">
+    <img src="/screenshots/verbose-test.png"/>
+    </p>
+
 - Get test coverage
 
     ```
     npm run test-coverage
     ```
+
+    <p align="center">
+    <img src="/screenshots/test-coverage.png"/>
+    </p>
