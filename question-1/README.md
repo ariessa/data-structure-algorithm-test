@@ -54,19 +54,19 @@ Output the final state of `asset_pnl_dict`.
     Example of output
     ```
     {
-      BTC: Asset {
+      BTC: {
         avg_buy_price: 50500,
         avg_sell_price: 45000,
         pnl: -15000,
         balance: 0.29
       },
-      ETH: Asset {
+      ETH: {
         avg_buy_price: 1600,
         avg_sell_price: 3000,
         pnl: 1600,
         balance: 1
       },
-      XRP: Asset {
+      XRP: {
         avg_buy_price: 0.55,
         avg_sell_price: 0.75,
         pnl: -470,
