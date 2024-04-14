@@ -92,7 +92,7 @@ class AccountingSystem {
     }
 
     /**
-     * Get cost of goods sold (COGS) using LIFO method.
+     * Get item name based on its ID.
      * @param {String} id - The id of an item.
      * @return {String} The name of an item
      */
@@ -135,7 +135,7 @@ class AccountingSystem {
     }
 
     /**
-     * Record sell transactions using both FIFO and LIFO methods.
+     * Record sell transactions.
      * @param {Number} - The id of transaction.
      * @param {Number} - The quantity of goods.
      * @param {Number} - The price per goods unit in USD
@@ -150,14 +150,14 @@ class AccountingSystem {
     }
 
     /**
-     * Removes all transactions.
+     * Reset all items.
      */
     reset_items() {
         this.#items = new Object();
     }
 
     /**
-     * Removes all transactions.
+     * Reset all transactions.
      */
     reset_txs() {
         this.#txs = new Array();

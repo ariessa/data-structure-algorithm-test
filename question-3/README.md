@@ -34,4 +34,37 @@ cogs_lifo = accounting.get_cogs_lifo()
 
 ## Solution
 
+- Created class `AccountingSystem` to represent an accounting system with the following functionalities:
 
+    - Add item in accounting system.
+    - Calculate cost of goods dold using both FIFO and LIFO methods.
+    - Calculate item ID.
+    - Calculate transaction ID.
+    - Print out the inventory values of all items in USD to the console.
+    - Get all items in accounting system.
+    - Get all transactions in accounting system.
+    - Record buy transaction.
+    - Record sell transaction.
+    - Removes all transactions.
+    - Reset all items.
+    - Reset all transactions.
+
+- Created class `Item` to represent an item.
+
+- Created class `Transaction` to represent a transaction.
+
+- Added 9 unit tests to test the functionality of class `AccountingSystem`:
+
+    - Can add items in accounting system
+    - Can calculate item id correctly
+    - Can calculate transaction id correctly
+    - Can get all transactions
+    - Can record buy transaction
+    - Can record sell transaction
+    - Can get correct cogs using fifo method
+    - Can get correct cogs using lifo method
+    - Can get correct remaining inventory values for all items in accounting system
+
+- Added 1 unit tests to test the functionality of class `Item`:
+
+    - Can get value to use

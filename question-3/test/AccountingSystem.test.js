@@ -16,10 +16,10 @@ describe("class AccountingSystem", () => {
     });
 
     afterEach(() => {
-        // Remove all items
+        // Reset all items
         accounting_system.reset_items();
 
-        // Remove all transactions
+        // Reset all transactions
         accounting_system.reset_txs();
     });
 
