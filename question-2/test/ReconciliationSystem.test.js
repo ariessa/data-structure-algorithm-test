@@ -47,6 +47,12 @@ describe("class ReconciliationSystem", () => {
         expect(recon_system).toHaveProperty('tx125');
     });
 
+    test("cannot reconcile non-existent transaction", () => {
+        expect(() => {
+            recon_system.reconcile_transaction("tx125");
+          }).toThrow(new Error("Transaction id cannot be found in reconciliation system!"));
+    });
+
     test("cannot reconcile transaction that's already mark as reconciled", () => {
         recon_system.reconcile_transaction('tx123');
 
